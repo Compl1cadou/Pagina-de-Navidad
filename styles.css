@@ -27,27 +27,12 @@ a {
     letter-spacing: 2px;
 }
 
-.parrafo__bienvenida {
-    width: 400px;
-    margin: 0 auto;
-}
-
 .header {
     height: 700px;
     background-image: url(img/navidad.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    box-sizing: border-box;
-
-}
-
-.contenedor__bienvenida {
-    text-align: center;
-    margin: 0 auto;
-    color: black;
-    padding: 50px;
-    width: 60%;
 }
 
 .contenedor__navegacion {
@@ -57,12 +42,22 @@ a {
     background: linear-gradient(to right, #e60000, #ff8c00);
 }
 
+.contenedor__bienvenida {
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    padding-top: 50px;
+}
+
 .bienvenida {
     font-size: 50px;
-    margin-top: 40px;
     margin-bottom: 0;
 }
 
+.parrafo__bienvenida {
+    width: 400px;
+    margin: 0 auto;
+}
 
 .navegacion {
     display: flex;
