@@ -1,0 +1,249 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bienvenida, .titulo__historia, .titulo__tradiciones, .titulo__datos {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.parrafo__bienvenida {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 700px;
+    background-image: url(img/navidad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+
+}
+
+.contenedor__bienvenida {
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    padding: 50px;
+    width: 60%;
+}
+
+.contenedor__navegacion {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(to right, #e60000, #ff8c00);
+}
+
+.bienvenida {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+
+.navegacion {
+    display: flex;
+    justify-content:end;
+    gap: 25px;
+    align-items: center;
+}  
+
+.section__historia {
+    padding: 50px 20px;
+    
+}
+
+.titulo__historia {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(177, 4, 13, 1);
+    font-size: 40px;
+}
+
+.parent__historia {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: repeat(2, minmax(200px, auto));
+    gap: 30px;
+    font-weight: 400;
+
+}
+
+.historia__1 {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f8ff, #87ceeb);
+}
+
+.historia__2 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0fff0, #90ee90);
+}
+
+.historia__3 {
+    grid-row: 1 / span 2; 
+    grid-column: 2 / 3; 
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(180deg, #ff4d4d, #cc0000);
+}
+
+.section__tradiciones {
+    padding: 50px 20px;
+    
+}
+
+.titulo__tradiciones {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(40, 97, 40, 1);
+    font-size: 40px;
+}
+
+.parent__tradiciones {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(200px, auto));
+    gap: 30px;
+    font-weight: 400;
+}
+
+.tradiciones__1 {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(255, 6, 20, 0.78);
+    border: 1px solid rgba(255, 6, 20, 0.78);
+}
+
+.titulo__tradiciones__1 {
+    color: rgba(255, 6, 20, 0.78);
+}
+
+.tradiciones__2 {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(14, 146, 14, 1);
+    border: 1px solid rgba(14, 146, 14, 1);
+}
+
+.titulo__tradiciones__2 {
+    color: rgba(14, 146, 14, 1);
+}
+
+.tradiciones__3 {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(211, 144, 67, 1);
+    border: 1px solid rgba(211, 144, 67, 1);
+}
+
+.titulo__tradiciones__3 {
+    color: rgba(211, 144, 67, 1);
+}
+
+.tradiciones__4 {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(41, 41, 182, 1);
+    border: 1px solid rgba(41, 41, 182, 1);
+}
+
+.titulo__tradiciones__4 {
+    color: rgba(41, 41, 182, 1);
+}
+
+.section__datos {
+    padding: 50px 20px;
+}
+
+.titulo__datos {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(194, 181, 37, 1);
+    font-size: 40px;
+}
+
+.parent__datos {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(200px, auto));
+    gap: 30px;
+    font-weight: 400;
+}
+
+.datos__1 {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffc0cb, #ffa07a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datos__2 {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #98fb98, #adff2f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datos__3 {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fffacd, #f0e68c);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datos__4 {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #add8e6, #87cefa);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #b30000, #800000);
+    color: white;
+    font-weight: 600;
+}
+
+.despedida {
+    font-size: 30px;
+    font-weight: bold;
+}
