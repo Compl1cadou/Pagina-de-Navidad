@@ -242,3 +242,25 @@ footer {
     font-size: 30px;
     font-weight: bold;
 }
+
+.snowflake {
+    position: fixed;
+    top: -10px;
+    color: white;
+    font-size: 20px;
+    pointer-events: none;
+    animation: caer linear infinite;
+    z-index: 9999;
+    user-select: none;
+}
+
+@keyframes caer {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0.8;
+    }
+}
